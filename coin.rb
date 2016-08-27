@@ -1,6 +1,6 @@
-coin = rand(12)
+coin = rand(10) + 1
 
-if (coin==11)
+if (coin.between?(9, 10))
   puts "Ребро"
 elsif coin <= 5
   puts "Решка"
